@@ -13,6 +13,10 @@ public class AutoScroll : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+
+        if (FBGameManager.instance.gameOver == true)
+            return;
+
         // 메인텍스쳐의 오프셋을 가져와서 offset 변수에 넣는다.
         // a = b
         // a = a + 1
