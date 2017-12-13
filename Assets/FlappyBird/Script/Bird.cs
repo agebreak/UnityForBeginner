@@ -22,6 +22,8 @@ public class Bird : MonoBehaviour
         // 1. 버튼을 클릭할때 = 버튼이 눌렸으면
         if (Input.GetMouseButtonDown(0))
         {
+            FBGameManager.instance.GameReady();
+
             GetComponent<Rigidbody>().useGravity = true;
 
             // 2. 속도를 0으로 만든다
