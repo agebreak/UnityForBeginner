@@ -6,5 +6,5 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/FlappyBird/FlappyBird.unity
-    guid: a2b602d0af87f944d878236eff82ba74
+    path: Assets/2_VRTowerDefence/VRTowerDefence.unity
+    guid: a31a3a90ee26d114b814aab1ab2ed3f5
